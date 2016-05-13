@@ -1,4 +1,8 @@
 link(href="http://www.google.com/images/branding/product/ico/googleg_lodp.ico",rel="shortcut icon")
 link(href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css", rel="stylesheet")
 block link
+script.
+  function adjustPage(){ document.documentElement.style.fontSize = document.documentElement.clientWidth * 100 / 750 + 'px'; }
+  adjustPage();
+  window.addEventListener('resize',function(){ adjustPage(); },false);
 block globalscript
