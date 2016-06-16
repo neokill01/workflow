@@ -1,8 +1,7 @@
-link(href="http://www.google.com/images/branding/product/ico/googleg_lodp.ico",rel="shortcut icon")
-link(href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css", rel="stylesheet")
+link(href="./css/normalize.min.css", rel="stylesheet")
+<!--[if lt IE 9]>
+<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="http://cdn.bootcss.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 block link
-script.
-  function adjustPage(){ document.documentElement.style.fontSize = document.documentElement.clientWidth * 100 / 750 + 'px'; }
-  adjustPage();
-  window.addEventListener('resize',function(){ adjustPage(); },false);
 block globalscript

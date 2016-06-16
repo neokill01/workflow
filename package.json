@@ -25,8 +25,12 @@
   "devDependencies": {
     "colors": "^1.1.2",
     "gulp": "^3.9.1",
+    "gulp-copy": "0.0.2",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-imagemin": "^2.4.0",
     "gulp-jade": "^1.1.0",
     "gulp-load-plugins": "^1.2.2",
-    "gulp-plumber": "^1.1.0"
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.1"
   }
 }
